@@ -37,9 +37,8 @@
 
 form .display{
     display: flex;
-    justify-content: flex-end;
-    margin: 20px 0; 
-      
+    width: 80%;
+    padding-right: 2%;
 }
 
 form .display input{
@@ -48,15 +47,16 @@ form .display input{
     flex: 1;
     font-size: 35px;
     box-shadow: none;
-    background-color: rgba(240, 242, 242, 0.893);
+    background-color: rgba(240, 242, 242, 0.756);
     opacity: 50%;
     color: black; 
 }
 
-form input.equal{
-    width: 145px;
-}
-
 form input.operador{
     background: #6a6ca0;
+}
+
+form .first{
+    display: flex;
+    justify-content: flex-end;
 }
